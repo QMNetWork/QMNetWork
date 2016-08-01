@@ -15,6 +15,10 @@
     return [[self alloc] init];
 }
 
+- (NSString *)serverURL{
+    return @"http://api.xiaxiangke.com/api";
+}
+
 - (NSTimeInterval)netWokingTimeoutSeconds{
     return 20.0f;
 }

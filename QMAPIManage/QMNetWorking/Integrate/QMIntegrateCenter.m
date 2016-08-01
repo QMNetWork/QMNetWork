@@ -7,7 +7,6 @@
 //
 
 #import "QMIntegrateCenter.h"
-#import "QMService.h"
 #import "QMHTTPHead.h"
 #import "QMRequestGenerator.h"
 #import "QMRequestConfiguration.h"
@@ -26,7 +25,6 @@
 {
     self = [super init];
     if (self) {
-        self.service = [QMService class];
         self.httpHead = [QMHTTPHead class];
         self.requestGenerator = [QMRequestGenerator class];
         self.requestConfiguration = [QMRequestConfiguration class];

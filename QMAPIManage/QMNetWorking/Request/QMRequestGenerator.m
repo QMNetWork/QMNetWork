@@ -39,8 +39,8 @@
 }
 
 - (NSString *)urlWithApi:(NSString *)api{
-    QMService *service = [[QMIntegrateCenter sharedManager].service instantiation];
-    return [service.baseURL stringByAppendingPathComponent:api];
+    QMRequestConfiguration *requestConfiguration = [[QMIntegrateCenter sharedManager].requestConfiguration instantiation];
+    return [requestConfiguration.serverURL stringByAppendingPathComponent:api];
 }
 
 - (NSString *)HTTPMethod{

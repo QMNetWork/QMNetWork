@@ -19,10 +19,6 @@
     return [QMHTTPHead class];
 }
 
-- (Class)service{
-    return [QMService class];
-}
-
 - (Class)requestGenerator{
     return [QMRequestGenerator class];
 }

@@ -26,7 +26,7 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
-
+*.lock
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -41,7 +41,7 @@ xcuserdata/
 # Carthage/Checkouts
 
 Carthage/Build
-
+Pods/
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 

@@ -12,6 +12,8 @@
 
 + (instancetype)instantiation;
 
+@property (nonatomic, readonly, copy) NSString *serverURL;
+
 /**
  *  超时时间
  */

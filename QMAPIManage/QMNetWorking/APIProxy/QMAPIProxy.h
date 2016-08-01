@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "QMHTTPHead.h"
-#import "QMService.h"
 #import "QMRequestGenerator.h"
 #import "QMRequestConfiguration.h"
 
@@ -16,12 +15,25 @@
 
 + (instancetype)instantiation;
 
+/**
+ *  配置HTTPHead 请求head头
+ *
+ *  @return <#return value description#>
+ */
 - (Class)HTTPHead;
 
-- (Class)service;
-
+/**
+ *  配置请求的方式（POST GET等等）
+ *
+ *  @return <#return value description#>
+ */
 - (Class)requestGenerator;
 
+/**
+ *  默认的配置要求
+ *
+ *  @return <#return value description#>
+ */
 - (Class)requestConfiguration;
 
 @end

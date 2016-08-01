@@ -10,11 +10,6 @@
 @interface QMIntegrateCenter : NSObject
 
 + (instancetype)sharedManager;
-
-/**
- *  请求的service
- */
-@property (nonatomic, copy) Class service;
 /**
  *  请求Head
  */

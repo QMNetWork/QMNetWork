@@ -9,13 +9,11 @@
 /* Begin PBXBuildFile section */
 		2655C6271D49E506006B4377 /* QMCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6261D49E506006B4377 /* QMCacheObject.m */; };
 		2655C62A1D49E537006B4377 /* QMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6291D49E537006B4377 /* QMCache.m */; };
-		2655C62E1D49E8DA006B4377 /* QMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C62D1D49E8DA006B4377 /* QMService.m */; };
 		2655C6321D49EDB4006B4377 /* QMAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6311D49EDB4006B4377 /* QMAPIManager.m */; };
 		2655C6391D49F678006B4377 /* QMIntegrateCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6381D49F678006B4377 /* QMIntegrateCenter.m */; };
 		2655C63C1D49FE14006B4377 /* QMRequestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C63B1D49FE14006B4377 /* QMRequestConfiguration.m */; };
 		2655C63F1D49FE9D006B4377 /* QMHTTPHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C63E1D49FE9D006B4377 /* QMHTTPHead.m */; };
 		2655C64A1D4AE6B5006B4377 /* QMAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6491D4AE6B5006B4377 /* QMAPIProxy.m */; };
-		2655C6591D4AEAAD006B4377 /* QMServiceTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6561D4AEAAD006B4377 /* QMServiceTwo.m */; };
 		2655C65A1D4AEAAD006B4377 /* TestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6581D4AEAAD006B4377 /* TestAPI.m */; };
 		2655C65D1D4AEACC006B4377 /* TestAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C65C1D4AEACC006B4377 /* TestAPIProxy.m */; };
 		2655C6601D4AF030006B4377 /* TestHTTPHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C65F1D4AF030006B4377 /* TestHTTPHead.m */; };
@@ -33,6 +31,7 @@
 		267E8B061D49B567003104D6 /* QMRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E8B051D49B567003104D6 /* QMRequestGenerator.m */; };
 		267E8B0A1D49B842003104D6 /* QMRequestGeneratorWithGET.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E8B091D49B842003104D6 /* QMRequestGeneratorWithGET.m */; };
 		267E8B0D1D49B895003104D6 /* QMRequestGeneratorWithPOST.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E8B0C1D49B895003104D6 /* QMRequestGeneratorWithPOST.m */; };
+		72A86420FDC541906C97183A /* libPods-QMAPIManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B14FB7B5BD05CE9796D4CF /* libPods-QMAPIManage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +56,6 @@
 		2655C6261D49E506006B4377 /* QMCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCacheObject.m; sourceTree = "<group>"; };
 		2655C6281D49E537006B4377 /* QMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMCache.h; sourceTree = "<group>"; };
 		2655C6291D49E537006B4377 /* QMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMCache.m; sourceTree = "<group>"; };
-		2655C62C1D49E8DA006B4377 /* QMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMService.h; sourceTree = "<group>"; };
-		2655C62D1D49E8DA006B4377 /* QMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMService.m; sourceTree = "<group>"; };
 		2655C6301D49EDB4006B4377 /* QMAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMAPIManager.h; sourceTree = "<group>"; };
 		2655C6311D49EDB4006B4377 /* QMAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMAPIManager.m; sourceTree = "<group>"; };
 		2655C6371D49F678006B4377 /* QMIntegrateCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMIntegrateCenter.h; sourceTree = "<group>"; };
@@ -69,8 +66,6 @@
 		2655C63E1D49FE9D006B4377 /* QMHTTPHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMHTTPHead.m; sourceTree = "<group>"; };
 		2655C6481D4AE6B5006B4377 /* QMAPIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMAPIProxy.h; sourceTree = "<group>"; };
 		2655C6491D4AE6B5006B4377 /* QMAPIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMAPIProxy.m; sourceTree = "<group>"; };
-		2655C6551D4AEAAD006B4377 /* QMServiceTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMServiceTwo.h; sourceTree = "<group>"; };
-		2655C6561D4AEAAD006B4377 /* QMServiceTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMServiceTwo.m; sourceTree = "<group>"; };
 		2655C6571D4AEAAD006B4377 /* TestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAPI.h; sourceTree = "<group>"; };
 		2655C6581D4AEAAD006B4377 /* TestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAPI.m; sourceTree = "<group>"; };
 		2655C65B1D4AEACC006B4377 /* TestAPIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAPIProxy.h; sourceTree = "<group>"; };
@@ -105,6 +100,9 @@
 		267E8B091D49B842003104D6 /* QMRequestGeneratorWithGET.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRequestGeneratorWithGET.m; sourceTree = "<group>"; };
 		267E8B0B1D49B895003104D6 /* QMRequestGeneratorWithPOST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRequestGeneratorWithPOST.h; sourceTree = "<group>"; };
 		267E8B0C1D49B895003104D6 /* QMRequestGeneratorWithPOST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRequestGeneratorWithPOST.m; sourceTree = "<group>"; };
+		60B14FB7B5BD05CE9796D4CF /* libPods-QMAPIManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QMAPIManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBB69011764FA1F591632E /* Pods-QMAPIManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMAPIManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMAPIManage/Pods-QMAPIManage.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BEF653A23D0426E2E92B9C /* Pods-QMAPIManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMAPIManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMAPIManage/Pods-QMAPIManage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A86420FDC541906C97183A /* libPods-QMAPIManage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,15 +131,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2655C6231D49E347006B4377 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				2655C62C1D49E8DA006B4377 /* QMService.h */,
-				2655C62D1D49E8DA006B4377 /* QMService.m */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		2655C6241D49E38B006B4377 /* APIManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,8 +190,6 @@
 		2655C6541D4AEAAD006B4377 /* TestAPI */ = {
 			isa = PBXGroup;
 			children = (
-				2655C6551D4AEAAD006B4377 /* QMServiceTwo.h */,
-				2655C6561D4AEAAD006B4377 /* QMServiceTwo.m */,
 				2655C6571D4AEAAD006B4377 /* TestAPI.h */,
 				2655C6581D4AEAAD006B4377 /* TestAPI.m */,
 				2655C65B1D4AEACC006B4377 /* TestAPIProxy.h */,
@@ -220,6 +208,8 @@
 				267E8AE51D49A4B6003104D6 /* QMAPIManageTests */,
 				267E8AF01D49A4B6003104D6 /* QMAPIManageUITests */,
 				267E8ACA1D49A4B6003104D6 /* Products */,
+				BB5919893D5578FF3DEF8732 /* Pods */,
+				A29CBDDFC8BA816459B7B7C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,7 +275,6 @@
 				2655C62F1D49EDA2006B4377 /* Integrate */,
 				2655C62B1D49E61E006B4377 /* Category */,
 				2655C6241D49E38B006B4377 /* APIManager */,
-				2655C6231D49E347006B4377 /* Service */,
 				267E8B0E1D49DEFF003104D6 /* Cache */,
 				267E8B0F1D49DEFF003104D6 /* Configuration */,
 				267E8B071D49B6BD003104D6 /* Model */,
@@ -334,6 +323,23 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		A29CBDDFC8BA816459B7B7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B14FB7B5BD05CE9796D4CF /* libPods-QMAPIManage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5919893D5578FF3DEF8732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBB69011764FA1F591632E /* Pods-QMAPIManage.debug.xcconfig */,
+				A8BEF653A23D0426E2E92B9C /* Pods-QMAPIManage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,9 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 267E8AF61D49A4B6003104D6 /* Build configuration list for PBXNativeTarget "QMAPIManage" */;
 			buildPhases = (
+				0B1CFB56B2D4EE97AD3E8FEF /* [CP] Check Pods Manifest.lock */,
 				267E8AC51D49A4B6003104D6 /* Sources */,
 				267E8AC61D49A4B6003104D6 /* Frameworks */,
 				267E8AC71D49A4B6003104D6 /* Resources */,
+				1F6912DCBB26944CEAC4C567 /* [CP] Embed Pods Frameworks */,
+				C910DC1B2D9A03A8AFF1D7FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,12 +468,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B1CFB56B2D4EE97AD3E8FEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F6912DCBB26944CEAC4C567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMAPIManage/Pods-QMAPIManage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C910DC1B2D9A03A8AFF1D7FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMAPIManage/Pods-QMAPIManage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		267E8AC51D49A4B6003104D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2655C62E1D49E8DA006B4377 /* QMService.m in Sources */,
 				2655C64A1D4AE6B5006B4377 /* QMAPIProxy.m in Sources */,
 				2655C6681D4B0BA3006B4377 /* NSArray+Params.m in Sources */,
 				2655C63F1D49FE9D006B4377 /* QMHTTPHead.m in Sources */,
@@ -474,7 +530,6 @@
 				267E8B0A1D49B842003104D6 /* QMRequestGeneratorWithGET.m in Sources */,
 				2655C6321D49EDB4006B4377 /* QMAPIManager.m in Sources */,
 				2655C6601D4AF030006B4377 /* TestHTTPHead.m in Sources */,
-				2655C6591D4AEAAD006B4377 /* QMServiceTwo.m in Sources */,
 				267E8B061D49B567003104D6 /* QMRequestGenerator.m in Sources */,
 				267E8AD11D49A4B6003104D6 /* AppDelegate.m in Sources */,
 				267E8ACE1D49A4B6003104D6 /* main.m in Sources */,
@@ -623,6 +678,7 @@
 		};
 		267E8AF71D49A4B6003104D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EBB69011764FA1F591632E /* Pods-QMAPIManage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QMAPIManage/Info.plist;
@@ -634,6 +690,7 @@
 		};
 		267E8AF81D49A4B6003104D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BEF653A23D0426E2E92B9C /* Pods-QMAPIManage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QMAPIManage/Info.plist;

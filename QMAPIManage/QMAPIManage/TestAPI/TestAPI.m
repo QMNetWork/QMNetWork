@@ -11,7 +11,7 @@
 @implementation TestAPI
 
 +(void)apiName:(NSString *)api withParams:(NSDictionary *)params{
-    [[QMAPIManager sharedManager] sendAPI:api withParams:params withAPIProxy:[QMAPIProxy instantiation]];
+    [TestAPI apiName:api withParams:params withAPIProxy:[QMAPIProxy class]];
 }
 
 +(void)apiName:(NSString *)api withParams:(NSDictionary *)params withAPIProxy:(__unsafe_unretained Class)apiProxyClass{

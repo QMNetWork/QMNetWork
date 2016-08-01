@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "QMIntegrateCenter.h"
-#import "QMService.h"
 #import "QMRequestConfiguration.h"
 #import "QMHTTPHead.h"
 

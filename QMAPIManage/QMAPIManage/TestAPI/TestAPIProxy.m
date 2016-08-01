@@ -7,12 +7,8 @@
 //
 
 #import "TestAPIProxy.h"
-#import "QMServiceTwo.h"
 #import "TestHTTPHead.h"
 @implementation TestAPIProxy
-- (Class)service{
-    return [QMServiceTwo class];
-}
 - (Class)HTTPHead{
     return [TestHTTPHead class];
 }

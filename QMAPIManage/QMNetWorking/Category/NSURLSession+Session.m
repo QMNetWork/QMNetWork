@@ -32,6 +32,7 @@ static NSURLSessionConfiguration *configuration = nil;
         }else{
             NSLog(@"成功");
         }
+        completionHandler(data,response,error);
     }];
     return task;
 }
