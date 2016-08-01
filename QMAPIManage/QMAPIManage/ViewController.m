@@ -9,9 +9,9 @@
 #import "ViewController.h"
 #import "TestAPI.h"
 #import "TestAPIProxy.h"
-
+#import "ViewModel.h"
 @interface ViewController ()
-
+@property (nonatomic, strong)ViewModel *viewModel;
 @end
 
 @implementation ViewController
@@ -19,8 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [TestAPI apiName:@"tngou/info/news" withParams:@{@"id":@(0)}];
-    [TestAPI apiName:@"tngou/info/news" withParams:@{@"id":@(0)} withAPIProxy:[TestAPIProxy class]];
+//    [TestAPI apiName:@"tngou/info/news" withParams:@{@"id":@(0)}];
+    self.viewModel = [[ViewModel alloc] init];
+    [self.viewModel api];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -20,6 +20,7 @@
 		2655C6631D4AF93D006B4377 /* NSURLSession+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6621D4AF93D006B4377 /* NSURLSession+Session.m */; };
 		2655C6681D4B0BA3006B4377 /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6651D4B0BA3006B4377 /* NSArray+Params.m */; };
 		2655C6691D4B0BA3006B4377 /* NSDictionary+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 2655C6671D4B0BA3006B4377 /* NSDictionary+Params.m */; };
+		2658CEA41D4F49810007654E /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2658CEA31D4F49810007654E /* ViewModel.m */; };
 		267E8ACE1D49A4B6003104D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E8ACD1D49A4B6003104D6 /* main.m */; };
 		267E8AD11D49A4B6003104D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E8AD01D49A4B6003104D6 /* AppDelegate.m */; };
 		267E8AD41D49A4B6003104D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267E8AD31D49A4B6003104D6 /* ViewController.m */; };
@@ -78,6 +79,8 @@
 		2655C6651D4B0BA3006B4377 /* NSArray+Params.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Params.m"; sourceTree = "<group>"; };
 		2655C6661D4B0BA3006B4377 /* NSDictionary+Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Params.h"; sourceTree = "<group>"; };
 		2655C6671D4B0BA3006B4377 /* NSDictionary+Params.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Params.m"; sourceTree = "<group>"; };
+		2658CEA21D4F49810007654E /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		2658CEA31D4F49810007654E /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		267E8AC91D49A4B6003104D6 /* QMAPIManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMAPIManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267E8ACD1D49A4B6003104D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267E8ACF1D49A4B6003104D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 				267E8AD01D49A4B6003104D6 /* AppDelegate.m */,
 				267E8AD21D49A4B6003104D6 /* ViewController.h */,
 				267E8AD31D49A4B6003104D6 /* ViewController.m */,
+				2658CEA21D4F49810007654E /* ViewModel.h */,
+				2658CEA31D4F49810007654E /* ViewModel.m */,
 				267E8AD51D49A4B6003104D6 /* Main.storyboard */,
 				267E8AD81D49A4B6003104D6 /* Assets.xcassets */,
 				267E8ADA1D49A4B6003104D6 /* LaunchScreen.storyboard */,
@@ -523,6 +528,7 @@
 			files = (
 				2655C64A1D4AE6B5006B4377 /* QMAPIProxy.m in Sources */,
 				2655C6681D4B0BA3006B4377 /* NSArray+Params.m in Sources */,
+				2658CEA41D4F49810007654E /* ViewModel.m in Sources */,
 				2655C63F1D49FE9D006B4377 /* QMHTTPHead.m in Sources */,
 				267E8AD41D49A4B6003104D6 /* ViewController.m in Sources */,
 				2655C6631D4AF93D006B4377 /* NSURLSession+Session.m in Sources */,

@@ -16,7 +16,8 @@
 }
 
 - (NSString *)serverURL{
-    return @"http://api.xiaxiangke.com/api";
+//    return @"http://api.xiaxiangke.com/api";
+    return @"http://apis.baidu.com/";
 }
 
 - (NSTimeInterval)netWokingTimeoutSeconds{

@@ -9,5 +9,5 @@
 #import "QMAPIProxy.h"
 
 @interface TestAPIProxy : QMAPIProxy
-
+- (void)caipiao;
 @end

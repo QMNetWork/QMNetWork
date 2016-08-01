@@ -8,8 +8,14 @@
 
 #import "TestAPIProxy.h"
 #import "TestHTTPHead.h"
+#import "QMAPIManager.h"
 @implementation TestAPIProxy
 - (Class)HTTPHead{
     return [TestHTTPHead class];
 }
+
+- (void)caipiao{
+    [[QMAPIManager sharedManager] sendAPI:@"acman/shuzicai/pl5" withParams:nil withAPIProxy:self];
+}
+
 @end
